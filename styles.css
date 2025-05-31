@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+}
+
+.cal-container {
+    width: 260px;
+    height: auto;
+    margin: auto;
+    padding: 15px;
+    /*border: 1px solid black;*/
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 2px grey;
+}
+
+.display-container {
+    margin:0 0 15px;
+}
+
+#demo1, #demo2 {
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    margin: 0;
+    text-align: right;
+    background-color: rgb(197, 235, 197);
+
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+.btn-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+button {
+    padding: 5px;
+    background-color: rgb(71, 70, 70);
+    color: white;
+    font-size: 150%;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 2px rgb(88, 88, 88);
+}
+
+.operations {
+    color: rgb(245, 184, 52);
+}
