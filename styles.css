@@ -61,14 +61,50 @@ button {
 
 @media only screen and (max-width: 768px) {
     .cal-container {
-        width: 60%;
-        height: 100%;
-        margin: auto;
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        bottom: 0px;
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .display-container {
+        flex: 30%;
+    }
+
+    #demo1, #demo2 {
+        height: 50%;
+    }
+
+    .btn-container {
+        flex: 70%;
     }
 }
 
 @media only screen and (max-width: 500px) {
     .cal-container {
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        bottom: 0px;
         width: 100%;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .display-container {
+        flex: 30%;
+    }
+
+    #demo1, #demo2 {
+        height: 50%;
+    }
+
+    .btn-container {
+        flex: 70%;
     }
 }
