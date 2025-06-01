@@ -60,6 +60,10 @@ button {
 }
 
 @media only screen and (max-width: 768px) {
+    body {
+        margin: 0;
+    }
+
     .cal-container {
         position: fixed;
         left: 0px;
