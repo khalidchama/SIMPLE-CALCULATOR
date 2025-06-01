@@ -89,6 +89,11 @@
                     default:
                         break;
                 }
+                
+                if (result.toString().length >= 14) {
+                    result = result.toExponential(4);
+                }
+
                 document.getElementById("demo2").innerHTML = result;
             }
 

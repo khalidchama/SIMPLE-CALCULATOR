@@ -32,6 +32,8 @@ h2 {
     font-family: "Orbitron", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
+    overflow: hidden;
+    /*direction: rtl;*/
 }
 
 .btn-container {
