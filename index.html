@@ -47,7 +47,7 @@
 
             function appendNumber(number) {
                 currentInput += number;
-                if (currentInput.length >= 10) {
+                if (currentInput.length >= 12) {
                     currentInput = parseFloat(currentInput).toExponential(4);
                 }
                 document.getElementById("demo1").innerHTML = previousInput + currentOperation + currentInput;
