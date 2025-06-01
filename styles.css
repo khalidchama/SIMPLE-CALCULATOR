@@ -55,6 +55,10 @@ button {
     box-shadow: 1px 1px 1px 2px rgb(88, 88, 88);
 }
 
+button:active {
+    background-color: rgba(71, 70, 70, 0.8);
+}
+
 .operations {
     color: rgb(245, 184, 52);
 }
