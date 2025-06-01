@@ -58,3 +58,17 @@ button {
 .operations {
     color: rgb(245, 184, 52);
 }
+
+@media only screen and (max-width: 768px) {
+    .cal-container {
+        width: 60%;
+        height: 100%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .cal-container {
+        width: 100%;
+    }
+}
