@@ -8,7 +8,7 @@
         <title>Js Calculator</title>
     </head>
     <body>
-        <h2>Simple Js Calculator</h2>
+        <h2>Simple Calculator</h2>
         <div class="cal-container">
             <div class="display-container">
                 <p id="demo1"></p>
@@ -47,6 +47,9 @@
 
             function appendNumber(number) {
                 currentInput += number;
+                if (currentInput.length >= 10) {
+                    currentInput = parseFloat(currentInput).toExponential(4);
+                }
                 document.getElementById("demo1").innerHTML = previousInput + currentOperation + currentInput;
             }
 
